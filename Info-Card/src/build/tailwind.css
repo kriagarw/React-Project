@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+
+.wrapper{
+    @apply text-center p-5 h-screen;
+}
+.wrapper{
+    background-image: linear-gradient(40deg,#4fd1c5 10%, transparent 35%, #4fd1c5 120%);
+}
+.eventHeading{
+    @apply pt-8 uppercase ml-auto mr-auto text-4xl font-extrabold italic font-serif;
+}
+
+.eventNavbar {
+    @apply flex items-center text-base capitalize pt-4 text-gray-900 tracking-wider font-serif font-semibold italic justify-around;
+}
+
+.event{
+    @apply h-1;
+    @apply w-32;
+    @apply block;
+    @apply bg-teal-600;
+    @apply ml-auto;
+    @apply mr-auto;
+    @apply rounded;
+}
+.events{
+    @apply h-3;
+    @apply w-8;
+    @apply block;
+    @apply bg-teal-500;
+    @apply ml-auto;
+    @apply mr-auto;
+}
+
+.eventCard{
+    @apply w-1/4 bg-white col-gap-4 mb-24 border-2 rounded-lg text-left shadow-2xl;
+}
+
+.evtImage{
+    @apply w-full h-32 relative;
+}
+
+.evtName{
+    @apply relative bg-white shadow-lg ml-4 mr-4 rounded-lg p-3 z-10 -mt-10;
+}
+
+.online{
+    @apply  bg-teal-400 rounded-md px-2 flex ;
+}
+
+.location{
+    @apply  text-sm font-normal text-black ml-4 mr-8 capitalize ;
+}
+
+.evtTitle{
+    @apply  flex text-xl font-bold text-black pb-2 capitalize;
+}
+
+.evtTime{
+    @apply text-sm text-gray-700;
+}
+
+.date{
+    @apply text-sm text-gray-800 mr-2;
+}
+
+.evtDate{
+    @apply font-bold text-black text-sm;
+}
+
+.evtDetail{
+    @apply  text-sm text-gray-700 relative my-4 mx-6 justify-start;
+}
+
+.speakerHead{
+    @apply text-sm font-semibold text-gray-700 mb-2 capitalize;
+}
+
+.photo{
+    @apply bg-white w-8 h-8 overflow-hidden rounded-full;
+}
+.moreIcon{
+    @apply  relative flex flex-row ml-auto mr-4 mt-12;
+}
+.viewMore{
+    @apply  font-bold text-sm text-teal-700 ml-auto mr-3 capitalize;
+}
+
+@tailwind utilities;
